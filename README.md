@@ -1,12 +1,12 @@
 <section>
   <h1>👋 Hi, I’m @A-Cozy-Mender-U-Likes</h1>
   <ul>
-    <li>👀 I’m interested in ...</li>
-    <li>🌱 I’m currently learning ...</li>
-    <li>💞️ I’m looking to collaborate on ...</li>
-    <li>📫 How to reach me ...</li>
-    <li>😄 Pronouns: ...</li>
-    <li>⚡ Fun fact: ...</li>
+    <li>👀 I’m interested in ...</li> ice hockey
+    <li>🌱 I’m currently learning ...</li> history
+    <li>💞️ I’m looking to collaborate on ...</li> puppies
+    <li>📫 How to reach me ...</li> 617-899-6075
+    <li>😄 Pronouns: ...</li> her/she
+    <li>⚡ Fun fact: ...</li> I like cats
   </ul>
 </section>
 
