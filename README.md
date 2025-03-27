@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About My Hockey</title>
+    <title>My Hockey Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,67 +17,90 @@
             color: white;
             text-align: center;
             padding: 20px;
-            font-size: 28px;
+            font-size: 32px;
             font-weight: bold;
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 20px auto;
             padding: 20px;
             background: navy;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-        }
-        h1 {
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
             text-align: center;
-            color: white;
         }
         .content {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        .card {
+        .section {
             background: black;
             color: white;
             padding: 20px;
             margin: 10px;
             border-radius: 8px;
-            flex: 1 1 calc(50% - 20px);
+            flex: 1 1 calc(45% - 20px);
             text-align: center;
         }
         footer {
             background: black;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             margin-top: 20px;
+            font-size: 16px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background: black;
+            padding: 10px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background: navy;
+        }
+        .nav a:hover {
+            background: white;
+            color: black;
         }
     </style>
 </head>
 <body>
-    <header>All About My Hockey</header>
+    <header>My Hockey Website</header>
+    <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#history">History</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <div class="container">
-        <h1>Welcome to My Hockey Journey</h1>
+        <h1>Welcome</h1>
+        <p>This is a template. Customize it with your own content!</p>
         <div class="content">
-            <div class="card">
-                <h2>My Passion</h2>
-                <p>Ice hockey has been my passion for years. The thrill of the game and the teamwork make it special.</p>
+            <div class="section" id="about">
+                <h2>About Me</h2>
+                <p>Write a short introduction about yourself and your love for hockey.</p>
             </div>
-            <div class="card">
-                <h2>My Learning</h2>
-                <p>Currently, I'm learning about the history of hockey and how it has evolved over time.</p>
+            <div class="section" id="history">
+                <h2>Hockey History</h2>
+                <p>Add interesting historical facts about hockey.</p>
             </div>
-            <div class="card">
-                <h2>Fun Facts</h2>
-                <p>Did you know? I also love cats and enjoy spending time with my pets!</p>
+            <div class="section" id="gallery">
+                <h2>Photo Gallery</h2>
+                <p>Insert images or links to your favorite hockey moments.</p>
             </div>
-            <div class="card">
+            <div class="section" id="contact">
                 <h2>Contact Me</h2>
-                <p>Want to connect? Reach out to me for more discussions about hockey and more!</p>
+                <p>Provide contact details or links to your social media.</p>
             </div>
         </div>
     </div>
-    <footer>&copy; 2025 All About My Hockey. All rights reserved.</footer>
+    <footer>&copy; 2025 My Hockey Website. Customize as needed.</footer>
 </body>
 </html>
